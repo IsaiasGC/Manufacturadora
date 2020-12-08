@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.InventariosPartController">
+    <children>
+        <TableView fx:id="tblInventarios" layoutX="14.0" layoutY="86.0" prefHeight="364.0" prefWidth="818.0" />
+        <ComboBox fx:id="cmbDeparta" layoutX="297.0" layoutY="42.0" opacity="0.5" prefHeight="21.0" prefWidth="206.0" />
+        <Button fx:id="btnNuevo" layoutX="907.0" layoutY="76.0" mnemonicParsing="false" text="Nuevo" />
+        <Button fx:id="btnModificar" layoutX="899.0" layoutY="125.0" mnemonicParsing="false" text="Modificar" />
+        <Button fx:id="btnEliminar" layoutX="903.0" layoutY="177.0" mnemonicParsing="false" text="Eliminar" />
+    </children>
+</AnchorPane>

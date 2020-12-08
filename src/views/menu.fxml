@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.MenuController">
+    <MenuBar AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0">
+        <menus>
+            <Menu fx:id="menuFile" text="Salir">
+                <items>
+                    <MenuItem fx:id="mnSalir" text="Salir"/>
+                </items>
+            </Menu>
+            <Menu fx:id="menuCatalogs" text="Catálogos">
+                <items>
+                    <MenuItem fx:id="mnSucursales" text="Sucursales" />
+                    <MenuItem fx:id="mnEmpleados" text="Empleados" />
+                    <MenuItem fx:id="mnDepartamentos" text="Departamentos" />
+                    <MenuItem fx:id="mnInventariosMat" text="Inventarios de Materia Prima" />
+                    <MenuItem fx:id="mnInventariosPart" text="Inventarios de Partes" />
+                    <MenuItem fx:id="mnClientes" text="Clientes" />
+                    <MenuItem fx:id="mnDistribuidores" text="Distribuidores" />
+                    <MenuItem fx:id="mnProveedores" text="Proveedores"/>
+                </items>
+            </Menu>
+            <Menu fx:id="menuReports" text="">
+            </Menu>
+            <Menu fx:id="menuHelp" text="Ayuda">
+                <items>
+                    <MenuItem fx:id="menuItemHelpAbout" text="Acerca de..." />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+</AnchorPane>

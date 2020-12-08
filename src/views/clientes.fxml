@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.ClientesController">
+    <TableView fx:id="tblClientes" layoutX="14.0" layoutY="14.0" prefHeight="436.0" prefWidth="803.0" />
+    <Button fx:id="btnNuevo" layoutX="908.0" layoutY="44.0" mnemonicParsing="false" text="Nuevo" />
+    <Button fx:id="btnModificar" layoutX="900.0" layoutY="87.0" mnemonicParsing="false" text="Modificar" />
+    <Button fx:id="btnEliminar" layoutX="904.0" layoutY="131.0" mnemonicParsing="false" text="Eliminar" />
+</AnchorPane>

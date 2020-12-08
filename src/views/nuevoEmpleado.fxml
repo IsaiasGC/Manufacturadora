@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="controllers.NuevoEmpleadoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="319.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="58.0" layoutY="57.0" text="Clave de Empleado" />
+        <TextField fx:id="cve" layoutX="171.0" layoutY="53.0" promptText="clave" />
+        <Label layoutX="58.0" layoutY="90.0" text="Nombre" />
+        <Label layoutX="59.0" layoutY="120.0" text="Sexo" />
+        <Label layoutX="58.0" layoutY="153.0" text="Edad" />
+        <Label layoutX="57.0" layoutY="185.0" text="Direccion" />
+        <Label layoutX="58.0" layoutY="218.0" text="Departamento" />
+        <Label layoutX="58.0" layoutY="248.0" text="Puesto" />
+        <TextField fx:id="nom" layoutX="135.0" layoutY="86.0" promptText="nombre" />
+        <TextField fx:id="sex" layoutX="109.0" layoutY="116.0" promptText="sexo" />
+        <TextField fx:id="edad" layoutX="109.0" layoutY="149.0" promptText="edad" />
+        <TextField fx:id="dir" layoutX="135.0" layoutY="181.0" promptText="direccion" />
+        <TextField fx:id="dep" layoutX="154.0" layoutY="213.0" promptText="departamento" />
+        <TextField fx:id="pues" layoutX="109.0" layoutY="244.0" promptText="puesto" />
+        <Button layoutX="343.0" layoutY="137.0" mnemonicParsing="false" text="Guardar Nuevo" onAction="#Guardar" />
+    </children>
+</AnchorPane>
